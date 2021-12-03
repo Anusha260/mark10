@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="cash10.css"/>
+    <title>CACH  REGISTER</title>
+</head>
+</head>
+{% comment %} <style>
+    table, th, td {
+    border:1px solid black;
+  }
+</style>
+    {% endcomment %}
+    
+<body>
+    <div class="Container">
+        <h1 class="heading"><b>CASH HEADING</b></h1>
+        <p class="description">
+        Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+        <label for ="bill-amount" ><b>BILL AMOUNT:</b></lable>
+        <input id="bill-amount" type="text"  />
+        <lable for ="cash-given" ><b>CASH GIVEN:</b></label>
+        <input id ="cash-given" type="text" />
+        <button id="check-button"><b>check</b></button> 
+        <table class="change-table">
+            <p id="error-message"></p>
+            <caption><b>RETURN CHANGE</b></caption>
+            
+            <tr>
+                <th><b>No of Notes</b></th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-0f-notes"></td>
+            </tr>
+            <tr>
+        
+                <th><b>NO OF NOTES</b></th>
+                    
+                <td><b>2000</b></td>
+                <td><b>500</b></td>
+                <td><b>100</b></td>
+                <td><b>20</b></td>
+                <td><b>10</b></td>
+                <td><b>5</b></td>
+                <td><b>1</b></td>
+                    
+
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="cash10.js"></script>
+
+</html>
